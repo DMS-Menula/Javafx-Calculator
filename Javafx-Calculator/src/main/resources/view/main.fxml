@@ -6,7 +6,7 @@
 
 <?import java.net.URL?>
 <AnchorPane xmlns:fx="http://javafx.com/fxml"
-            fx:controller="com.calculator.CalculatorController">
+            fx:controller="CalculatorController">
 
     <stylesheets>
         <URL value="@style.css"/>

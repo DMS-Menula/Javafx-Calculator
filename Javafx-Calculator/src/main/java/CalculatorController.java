@@ -1,5 +1,3 @@
-package com.calculator;
-
 import javafx.fxml.FXML;
 import com.jfoenix.controls.JFXTextField;
 import javafx.scene.control.Button;
