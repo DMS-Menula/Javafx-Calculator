@@ -1,10 +1,22 @@
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 
-public class Main {
+public class Main extends Application {
     public static void main(String[] args) {
-        System.out.printf("Hello and welcome!");
+        launch();
+    }
 
-        for (int i = 1; i <= 5; i++) {
-            System.out.println("i = " + i);
-        }
+    @Override
+    public void start(Stage stage) throws Exception {
+        stage.setScene(
+                new Scene(
+                        FXMLLoader.load(
+                                getClass().getResource("view/main.fxml")
+                        )
+                )
+        );
+        stage.show();
     }
 }
