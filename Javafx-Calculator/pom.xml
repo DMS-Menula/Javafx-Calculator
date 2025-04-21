@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>edu.icet</groupId>
+    <groupId>com.calculator</groupId>
     <artifactId>Javafx-Calculator</artifactId>
     <version>1.0-SNAPSHOT</version>
 
@@ -12,7 +12,6 @@
         <maven.compiler.source>19</maven.compiler.source>
         <maven.compiler.target>19</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <javafx.version>19.0.2</javafx.version>
     </properties>
 
     <dependencies>
@@ -70,18 +69,5 @@
             <version>9.0.1</version>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.openjfx</groupId>
-                <artifactId>javafx-maven-plugin</artifactId>
-                <version>0.0.8</version>
-                <configuration>
-                    <mainClass>com.calculator.Main</mainClass>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
